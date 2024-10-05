@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #fff; /* White border */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 300px;
+    background-color: #222; /* Dark input background */
+    color: #fff; /* White text for input */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    size: 10px;
+}
+
+form button:hover {
+    background-color: #ddd;
+}
+
+/* Message Styles */
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.message.success {
+    color: #00ff00; /* Green for success */
+}
+
+.message.error {
+    color: #ff0000; /* Red for error */
+}
+
+/* Employee List */
+#employee-list {
+    margin-top: 20px;
+}
+
+#employee-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #222; /* Dark background */
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#employee-list li button {
+    padding: 5px 10px;
+    background-color: #fff; /* White button */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#employee-list li button:hover {
+    background-color: #ddd;
+}
